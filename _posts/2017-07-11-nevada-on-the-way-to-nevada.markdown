@@ -10,7 +10,4 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 layout: post
 ---
 
-куплю гараж недорого 
-
-
-новий прекрасний
+buy a ticket to the moon

@@ -1,5 +1,5 @@
 ---
-title: Bef - Enjoy Freedom
+title: Photography
 timezone: UTC
 collections:
   posts:
@@ -8,46 +8,16 @@ collections:
   uploads:
     title: Uploads
     output: true
-logo: 
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
-permalink: ":title/"
-baseurl: "/bef"
-url: ''
-video: mountains.mp4
-banner-title: 
-banner-desc: 
-author-pic: face.jpg
-author-name: 
-about-author: 
-email: your-email@domain.com
-phone: "(496)-169-6557"
-website: https://dwayne.example.com
-google_url: 
-twitter_url: 
-instagram_url: 
-pinterest_url: 
-dribbble_url: 
-facebook_url: 
-discus_identifier: mr-brown
-mailchimp: 
-analytics: 
-paginate: 12
-paginate_path: "/page:num/"
-markdown: kramdown
-plugins_dir:
-- jekyll-paginate
-- jekyll-sitemap
-gems:
-- jekyll-paginate
-- jekyll-sitemap
-include:
-- _pages
-exclude:
-- node_modules
-- gulpfile.js
-- package.json
-- yarn.lock
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
